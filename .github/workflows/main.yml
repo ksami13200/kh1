@@ -1,0 +1,15 @@
+name: teeeest 
+on: 
+ push: 
+   branches: 
+     - master 
+
+jobs: 
+  test:
+    runs-on: ubuntu:latest 
+
+    steps: 
+     - name: print
+       run: echo " 3aaaaaaaaaaaaaa" 
+    
+ 
