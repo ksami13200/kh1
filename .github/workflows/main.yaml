@@ -1,0 +1,11 @@
+name: test workflow
+on: 
+    push:
+        branches:
+            - master 
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print massage 
+              run: echo "workflow is running"
