@@ -1,3 +1,4 @@
+# testing the app 
 from flask import Flask, render_template, request, flash, redirect, url_for
 from config import Config
 from database import get_db_connection, init_db
